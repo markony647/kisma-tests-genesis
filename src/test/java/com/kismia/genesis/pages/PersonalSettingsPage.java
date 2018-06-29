@@ -9,7 +9,6 @@ public class PersonalSettingsPage {
 
     private WebDriver driver;
     private ConciseAPI conciseAPI;
-
     private By logoutLink = By.cssSelector(".new-header-subs [href='/sign/out']");
 
     public PersonalSettingsPage(WebDriver driver) {
