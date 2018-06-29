@@ -3,9 +3,7 @@ package com.kismia.genesis.pages;
 import com.kismia.genesis.concise_api.ConciseAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
 import java.util.HashMap;
-
 import static org.openqa.selenium.support.ui.ExpectedConditions.textToBe;
 
 public class DatingPage {
