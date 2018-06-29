@@ -18,11 +18,11 @@ public class LoginPage {
 
     public LoginPage(WebDriver driver) {
         this.driver = driver;
+        conciseAPI = new ConciseAPI(driver);
     }
 
     public void visit() {
         driver.get(TestData.baseUrl);
-        conciseAPI = new ConciseAPI(driver);
     }
 
     public void login(String email, String password) {
